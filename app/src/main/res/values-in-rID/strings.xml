@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Aplikasi Cerita</string>
+        <string name="logout">Keluar</string>
+        <string name="enter_username">Masukkan Nama Pengguna</string>
+        <string name="enter_email">Masukkan Email</string>
+        <string name="enter_password">Masukkan Kata Sandi</string>
+        <string name="register">Daftar</string>
+        <string name="login">Masuk</string>
+        <string name="not_have_account">Belum punya akun? Silahkan Daftar</string>
+        <string name="label_must_fill">Diperlukan</string>
+        <string name="add_story">Tambah Cerita</string>
+        <string name="credentials_error">Email atau Kata Sandi Salah</string>
+        <string name="validation">Sudah punya akun? Silakan masuk</string>
+        <string name="here">Di sini</string>
+        <string name="camera">Kamera</string>
+        <string name="gallery">Galeri</string>
+        <string name="enter_description">Masukkan Deskripsi</string>
+        <string name="photo">Foto</string>
+        <string name="upload">Unggah</string>
+        <string name="username">Nama Pengguna</string>
+        <string name="date">Tanggal</string>
+        <string name="description">Deskripsi</string>
+        <string name="location">Lokasi</string>
+        <string name="latitude_longitude">lintang bujur</string>
+        <string name="navigation_drawer_open">Buka laci navigasi</string>
+        <string name="navigation_drawer_close">Tutup laci navigasi</string>
+        <string name="nav_header_desc">Tajuk Navigasi</string>
+        <string name="home">Beranda</string>
+        <string name="profile">Profil</string>
+        <string name="share">Bagikan</string>
+        <string name="contact_me">Hubungi Saya</string>
+        <string name="communicate">Berkomunikasi</string>
+        <string name="settings">Pengaturan</string>
+        <string name="icon_empty">Ikon Kosong</string>
+        <string name="empty_message">Tidak Ada Data</string>
+        <string name="hello_blank_fragment">halo</string>
+        <string name="custom_ui">UI Khusus</string>
+        <string name="choose_language_menu">Pilih Bahasa</string>
+        <string name="dark_or_light_mode">Mode Gelap atau Terang</string>
+        <string name="biometric_auth">Autentikasi Biometrik</string>
+        <string name="login_with_biometric">Masuk Dengan Biometrik</string>
+        <string name="no_biometric">Maaf, ponsel cerdas Anda tidak mendukung biometrik</string>
+        <string name="support_biometric">Ponsel cerdas Anda  mendukung biometrik</string>
+        <string name="biometric_tidak_sesuai">Biometrik Tidak Sesuai</string>
+</resources>

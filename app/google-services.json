@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77651517100",
+    "project_id": "submission-dicoding-3bd66",
+    "storage_bucket": "submission-dicoding-3bd66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77651517100:android:5f3ceb679a683b5604c909",
+        "android_client_info": {
+          "package_name": "com.nandaadisaputra.storyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77651517100-rble471g5e49n3p6i5q0msefmsclkqg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-dQqTxsDcAEMExQcnSsY4EEAsK89my98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77651517100-rble471g5e49n3p6i5q0msefmsclkqg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

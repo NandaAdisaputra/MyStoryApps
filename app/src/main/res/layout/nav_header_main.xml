@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.nandaadisaputra.storyapp.ui.activity.main.MainActivity" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="enableDarkMode"
+            type="Boolean" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_176sdp"
+        android:background="@drawable/side_nav_bar"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingTop="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingBottom="@dimen/_16sdp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <Switch
+            android:id="@+id/switch_dark_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:checked='@{enableDarkMode}'
+            android:thumb="@drawable/ic_dark_mode"
+            android:thumbTint="@color/thumbTintMoon"
+            android:track="@drawable/bg_switch_dark_mode"
+            android:visibility="visible"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/_8sdp"
+            app:srcCompat="@drawable/ic_android_black_24dp" />
+
+        <TextView
+            android:id="@+id/name_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_8sdp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/email_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModels"
+            type="com.nandaadisaputra.storyapp.ui.activity.add.AddStoryViewModel" />
+
+        <variable
+            name="adapter"
+            type="com.nuryazid.core.base.adapter.CoreListAdapter" />
+
+        <variable
+            name="activity"
+            type="com.nandaadisaputra.storyapp.ui.activity.add.AddStoryActivity" />
+
+        <import type="android.view.View" />
+
+    </data>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.add.AddStoryActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_16sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-204dp">
+
+            <Button
+                android:id="@+id/btn_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_marginBottom="@dimen/_48sdp"
+                android:text="@string/upload"
+                android:background="@drawable/bg_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt_description" />
+
+            <LinearLayout
+                android:id="@+id/lvButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingEnd="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_photo">
+
+                <Button
+                    android:id="@+id/btn_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button"
+                    android:text="@string/camera"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/btn_gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button"
+                    android:text="@string/gallery"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+
+            <com.nandaadisaputra.storyapp.ui.custom.DescriptionEditText
+                android:id="@+id/edt_description"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_weight="1"
+                android:autofillHints="@string/enter_description"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="@string/enter_description"
+                android:inputType="textPersonName|textNoSuggestions"
+                android:padding="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lvButton" />
+
+            <ImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/placeholder_img"
+                android:contentDescription="@string/photo" />
+
+            <ProgressBar
+                android:id="@+id/add_progress_bar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_upload"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="@{viewModels.showLoading ? View.VISIBLE : View.GONE}"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

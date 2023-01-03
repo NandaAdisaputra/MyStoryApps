@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_camera"
+            android:title="@string/camera"/>
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_photos"
+            android:title="@string/gallery"/>
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location_white"
+            android:title="@string/location"/>
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app"
+            android:title="@string/logout"/>
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share"/>
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/contact_me"/>
+        </menu>
+    </item>
+
+</menu>

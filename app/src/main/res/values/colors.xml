@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#ffa143</color>
+    <color name="colorPrimaryDark">#FF7142</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="color_red_text">#ff4141</color>
+    <color name="color_white_text">#FFFFFF</color>
+    <color name="color_red_background">#414141</color>
+    <color name="color_red_orange_text">#FF7142</color>
+    <color name="color_red_orange_background">#FF7142</color>
+    <color name="color_background">#FFF7D6</color>
+    <color name="color_orange_edit_text">#F8ECDA</color>
+    <color name="color_orange_edit_press">#FEE3BE</color>
+    <color name="color_orange_text">#ffa143</color>
+    <color name="color_orange_background">#FFA143</color>
+    <color name="color_orange_yellow_text">#FFD04F</color>
+    <color name="color_orange_yellow_background">#FFD04F</color>
+    <color name="thumbTintMoon">#000000</color>
+    <color name="switch_thumb">#FF9800</color>
+    <color name="switch_track">#E0E0E0</color>
+</resources>
