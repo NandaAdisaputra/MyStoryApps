@@ -11,8 +11,8 @@ Pada Aplikasi ini telah menerapkan
 6. Rest API dengan token 
 7. DataSource dan Data Binding 
 8. Android Architecture Component
-9. Custom Bottom Navigation dan Navigation Drawer.
-11.Login with RxJava, Register with Corountine Library, Library Retrofit, dll
+9. Custom Bottom Navigation dan Navigation Drawer
+11. Login with RxJava, Register with Corountine Library, Library Retrofit, dll
 12. Intent with Parceable, dan Fragment 
 13. Swipe Refresh, RecyclerView, CardView, dan ConstraintLayout
 14. Localization, Dark Mode dan Light Mode dengan mempertahankan theme nya ketika on destroy. 
