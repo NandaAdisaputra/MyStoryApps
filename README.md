@@ -12,11 +12,12 @@ Pada Aplikasi ini telah menerapkan
 7. DataSource dan Data Binding 
 8. Android Architecture Component
 9. Custom Bottom Navigation dan Navigation Drawer
-10. RxJava dan Login Register with Corountine Library, Library Retrofit, dll
+10.Login with RxJava, Register with Corountine Library, Library Retrofit, dll
 11. Intent with Parceable, dan Fragment 
 12. Swipe Refresh, RecyclerView, CardView, dan ConstraintLayout
 13. Localization, Dark Mode dan Light Mode dengan mempertahankan theme nya ketika on destroy. 
 14. Property Animation pada Login dan Register
+15. Login with Biometric
 
 
 ====================
