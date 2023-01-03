@@ -17,5 +17,7 @@ Pada Aplikasi ini telah menerapkan
 12. Swipe Refresh, RecyclerView, CardView, dan ConstraintLayout
 13. Localization, Dark Mode dan Light Mode dengan mempertahankan theme nya ketika on destroy. 
 14. Property Animation pada Login dan Register
+
+
 ====================
 ![save](https://user-images.githubusercontent.com/43689759/210289445-b068f32a-eac6-4246-b0ca-6363aadc4d7f.png)
